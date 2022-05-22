@@ -473,9 +473,8 @@
       <change afterPath="$PROJECT_DIR$/../my-node/https.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/request.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/static/js/main.f4c89f84.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/static/js/main.f4c89f84.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/static/js/main.f4c89f84.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/launches.mongo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../space-app/.eslintrc.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../space-app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../space-app/.idea/.gitignore" afterDir="false" />
@@ -525,16 +524,8 @@
       <change afterPath="$PROJECT_DIR$/../test-intervju/.idea/test-intervju.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../viken-klone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/requests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useLaunches.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useLaunches.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.a51a6010.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.a51a6010.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/static/js/main.a51a6010.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/launches.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/launches.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/launches/launches.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/launches/launches.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -584,7 +575,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653135121457</updated>
-      <workItem from="1653135122672" duration="32899000" />
+      <workItem from="1653135122672" duration="35498000" />
     </task>
     <servers />
   </component>
