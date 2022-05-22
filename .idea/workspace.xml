@@ -473,7 +473,27 @@
       <change afterPath="$PROJECT_DIR$/../my-node/https.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/request.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/img/background-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/img/background-medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/img/glow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/sound/abort.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/sound/click.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/sound/deploy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/sound/success.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/sound/typing.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/sound/warning.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/static/js/main.a51a6010.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/static/js/main.a51a6010.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/public/static/js/main.a51a6010.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/launches.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/launches/launches.router.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../space-app/.eslintrc.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../space-app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../space-app/.idea/.gitignore" afterDir="false" />
@@ -523,6 +543,16 @@
       <change afterPath="$PROJECT_DIR$/../test-intervju/.idea/test-intervju.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../viken-klone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/planets.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/planets.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/planets/planets.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/planets/planets.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/planets/planets.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/planets/planets.router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -557,11 +587,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/routes" />
+      <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/server/data" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/server/src/models" />
-      <recent name="$PROJECT_DIR$/server/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -572,7 +602,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653135121457</updated>
-      <workItem from="1653135122672" duration="15342000" />
+      <workItem from="1653135122672" duration="27889000" />
     </task>
     <servers />
   </component>
