@@ -39,7 +39,9 @@ function loadPlanetsData() {
 
 async function getAllPlanets() {
     //empty object will return all the planets
-    return await planets.find({});
+    return await planets.find({}, {
+        '_id': 0, '__v': 0,
+    });
 }
 
 
