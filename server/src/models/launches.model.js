@@ -50,7 +50,7 @@ async function saveLaunch(launch) {
     })
 }
 
-async function scheduleNewLaunch(launch){
+async function scheduleNewLaunch(launch) {
     const planet = await planets.findOne({
         keplerName: launch.target,
     });
@@ -72,7 +72,7 @@ async function scheduleNewLaunch(launch){
 
 
 async function abortLaunchById(launchId) {
-    const aborted =  await launchesDatabase.updateOne({
+    const aborted = await launchesDatabase.updateOne({
         flightNumber: launchId,
 
     }, {
