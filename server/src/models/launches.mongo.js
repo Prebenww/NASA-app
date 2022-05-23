@@ -30,6 +30,7 @@ const launchesSchema = new mongoose.Schema({
     success: {
         type: Boolean,
         default: true,
+        required: true,
     },
 });
 

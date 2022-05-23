@@ -18,8 +18,10 @@ const launch = {
 
 saveLaunch(launch)
 
-function existsLaunchWithId(launchId) {
-    return launches.has(launchId);
+async function existsLaunchWithId(launchId) {
+    return await launches.findOne({
+        flightNumber: launchId,
+    });
 }
 
 
@@ -36,16 +38,12 @@ async function getLatestFlightNumber() {
 }
 
 async function getAllLaunches() {
-    return await launchesDatabase
-        .find({}, {'_id': 0, '__v': 0});
+    return await launchesDatabase.find({}, {'_id': 0, '__v': 0});
 }
 
 async function saveLaunch(launch) {
-    const planet = await planets.findOne({
-        keplerName: launch.target
-    })
 
-    await launchesDatabase.updateOne({
+    await launchesDatabase.findOneAndUpdate({
         flightNumber: launch.flightNumber,
     }, launch, {
         upsert: true,
@@ -53,6 +51,14 @@ async function saveLaunch(launch) {
 }
 
 async function scheduleNewLaunch(launch){
+    const planet = await planets.findOne({
+        keplerName: launch.target,
+    });
+
+    if (!planet) {
+        throw new Error('No matching planet found');
+    }
+
     const newFlightNumber = await getLatestFlightNumber() + 1;
 
     const newLaunch = Object.assign(launch, {
@@ -65,18 +71,23 @@ async function scheduleNewLaunch(launch){
 }
 
 
-function abortLaunchById(launchId) {
-    // launches.delete(launchId) //This would work fine to just delete the whole launch.
-    const aborted = launches.get(launchId);
-    aborted.upcoming = false;
-    aborted.success = false;
+async function abortLaunchById(launchId) {
+    const aborted =  await launchesDatabase.updateOne({
+        flightNumber: launchId,
 
-    return aborted;
+    }, {
+        upcoming: false,
+        success: false,
+    });
+
+    return aborted.modifiedCount === 1;
+
 }
 
 module.exports = {
-    getAllLaunches,
     existsLaunchWithId,
-    abortLaunchById,
+    getAllLaunches,
     scheduleNewLaunch,
+    abortLaunchById,
+
 }
