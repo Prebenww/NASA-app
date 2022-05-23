@@ -5,8 +5,6 @@ const DEFAULT_FLIGHT_NUMBER = 100;
 
 const launches = new Map();
 
-
-
 const launch = {
     flightNumber: 100,
     mission: 'Kepler Exploration X',
@@ -28,28 +26,24 @@ function existsLaunchWithId(launchId) {
 async function getLatestFlightNumber() {
     const latestLaunch = await launchesDatabase
         .findOne()
-        .sort('flightNumber');
+        .sort('-flightNumber');
 
-    if(!latestLaunch) {
+    if (!latestLaunch) {
         return DEFAULT_FLIGHT_NUMBER;
     }
 
-    return latestLaunch.flightNumber
+    return latestLaunch.flightNumber;
 }
 
 async function getAllLaunches() {
     return await launchesDatabase
-        .find({}, { '_id':0, '__v' :0});
+        .find({}, {'_id': 0, '__v': 0});
 }
 
 async function saveLaunch(launch) {
     const planet = await planets.findOne({
         keplerName: launch.target
     })
-
-    if(!planet){
-        throw new Error('No matching planets found')
-    }
 
     await launchesDatabase.updateOne({
         flightNumber: launch.flightNumber,

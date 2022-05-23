@@ -523,8 +523,6 @@
       <change afterPath="$PROJECT_DIR$/../viken-klone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/models/launches.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/launches.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/planets.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/planets.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -582,7 +580,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653135121457</updated>
-      <workItem from="1653135122672" duration="48940000" />
+      <workItem from="1653135122672" duration="51156000" />
     </task>
     <servers />
   </component>
