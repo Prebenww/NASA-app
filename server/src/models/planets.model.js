@@ -1,10 +1,8 @@
 const fs = require('fs');
 const path = require('path')
-const { parse } = require('csv-parse');
+const {parse} = require('csv-parse');
 
 const planets = require('./planets.mongo')
-
-
 
 
 function isHabitablePlanet(planet) {
@@ -23,7 +21,7 @@ function loadPlanetsData() {
             }))
             .on('data', async (data) => {
                 if (isHabitablePlanet(data)) {
-                      savePlanet(data)
+                    savePlanet(data)
                 }
             })
             .on('error', (err) => {
@@ -54,7 +52,7 @@ async function savePlanet(planet) {
         }, {
             upsert: true,
         });
-    } catch(err) {
+    } catch (err) {
         console.error(`Could not save planet ${err}`);
     }
 }

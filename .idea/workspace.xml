@@ -465,7 +465,23 @@
       <change afterPath="$PROJECT_DIR$/../mern-stack/.idea/mern-stack.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mern-stack/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mern-stack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/backend/controller/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/backend/models/userModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/backend/routes/userRoutes.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mern-stack/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/pages/api/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mern-stack/client/yarn.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-node/.idea/my-node.iml" afterDir="false" />
@@ -520,12 +536,18 @@
       <change afterPath="$PROJECT_DIR$/../spotify-klone" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spotify/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test-intervju/.idea/test-intervju.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tinder-clone/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tinder-clone/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tinder-clone/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tinder-clone/.idea/tinder-clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tinder-clone/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../viken-klone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/models/launches.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/launches.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/launches.mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/launches.mongo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/models/planets.mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/planets.mongo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/launches/launches.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/models/planets.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/models/planets.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/planets/planets.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/planets/planets.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -583,7 +605,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653135121457</updated>
-      <workItem from="1653135122672" duration="55461000" />
+      <workItem from="1653135122672" duration="63976000" />
+      <workItem from="1653496255061" duration="642000" />
+      <workItem from="1653555894265" duration="175000" />
     </task>
     <servers />
   </component>

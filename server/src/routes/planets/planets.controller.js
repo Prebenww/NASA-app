@@ -1,4 +1,3 @@
-
 const {getAllPlanets} = require('../../models/planets.model');
 
 async function httpGetAllPlanets(req, res) {
